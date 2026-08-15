@@ -1,0 +1,9 @@
+termo = int(input('Digite o valor do primeiro termo: '))
+razao = int(input('Digite o valor da razão: '))
+contador = 1
+soma = termo
+print(termo, end=' ')
+while contador != 10:
+    soma += razao
+    contador += 1
+    print(soma, end=' ')
