@@ -7,7 +7,7 @@ lista.append(num)
 print(f'\nTamanho Lista {len(lista)}')
 print(f'Itens lista: {lista}')
 
-while i < 20:
+while i < 10:
 
     num = int(input("\nDigite um número: "))
 
