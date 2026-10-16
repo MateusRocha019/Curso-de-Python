@@ -1,4 +1,5 @@
-# =====================================================================
+# inlineSuggest.ENABLED -> DESATIVA O AUX DA IA NO CÓDIGO
+#  =====================================================================
 # GUIA PRÁTICO: FUNDAMENTOS DO PYTHON
 # Copie, cole na sua IDE e execute para ver a mágica acontecer!
 # =====================================================================

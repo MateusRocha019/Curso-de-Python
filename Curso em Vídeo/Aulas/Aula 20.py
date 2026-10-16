@@ -63,9 +63,12 @@ print(valores) -> [14, 4, 10, 0, 8]
 #No exemplo acima, a função dobra() recebe uma lista como argumento. Como listas são objetos mutáveis em Python, a função modifica a lista original, dobrando cada elemento. Portanto, após a chamada da função, a lista valores é alterada.
 
 EXEMPLO 6: Função com retorno de valores
+def soma(a=0, b=0, c=0):
+    s = a + b + c
+    return s
 
-
-
-
+# Exemplo de uso
+resultado = soma(3, 5, 2)
+print(f'A soma é: {resultado}')
 
 '''
