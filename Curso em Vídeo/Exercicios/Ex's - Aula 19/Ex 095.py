@@ -19,5 +19,5 @@ while True:
         break
 
 for k in jogadores:
-    print(f"{k}")
+    print(f"O jogador {k['Nome']} jogou {k['Partidas jogadas']} partidas e fez {k['Total de Gols']} Gols no campeonato")
 print("-=" * 30)
