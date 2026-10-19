@@ -1,9 +1,12 @@
 import time
 
 def maior(*tupla):
+    if len(tupla) == 0:
+            return
     print(''+"-=" * 40)
     first = 0
     print('Os número apresentados foram: ', end="")
+    
     for i in tupla:
         print(f'{i}..', end="", flush=True)
         time.sleep(0.4)
@@ -20,3 +23,4 @@ def maior(*tupla):
 maior(3, 5 ,8 ,7 ,9 ,1 , 8, 100, 2)
 maior(0)
 maior(1,3,2)
+maior()
